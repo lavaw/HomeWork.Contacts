@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		EE59D4B82AFAB39B00D9B70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4B72AFAB39B00D9B70E /* AppDelegate.swift */; };
 		EE59D4BA2AFAB39B00D9B70E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4B92AFAB39B00D9B70E /* SceneDelegate.swift */; };
-		EE59D4BC2AFAB39B00D9B70E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4BB2AFAB39B00D9B70E /* ViewController.swift */; };
 		EE59D4BF2AFAB39B00D9B70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE59D4BD2AFAB39B00D9B70E /* Main.storyboard */; };
 		EE59D4C12AFAB39C00D9B70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59D4C02AFAB39C00D9B70E /* Assets.xcassets */; };
 		EE59D4C42AFAB39C00D9B70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE59D4C22AFAB39C00D9B70E /* LaunchScreen.storyboard */; };
+		EE59D4CC2AFAB43600D9B70E /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4CB2AFAB43600D9B70E /* ContactsTableViewController.swift */; };
+		EE59D4CE2AFAB47400D9B70E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4CD2AFAB47400D9B70E /* Person.swift */; };
+		EE59D4D02AFAB48100D9B70E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4CF2AFAB48100D9B70E /* DataManager.swift */; };
+		EE59D4D22AFAB92B00D9B70E /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4D12AFAB92B00D9B70E /* ContactDetailViewController.swift */; };
+		EE59D4D42AFABEF800D9B70E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4D32AFABEF800D9B70E /* TabBarViewController.swift */; };
+		EE59D4D62AFABF8400D9B70E /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D4D52AFABF8400D9B70E /* SectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE59D4B42AFAB39B00D9B70E /* ДЗ7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ДЗ7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59D4B72AFAB39B00D9B70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE59D4B92AFAB39B00D9B70E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE59D4BB2AFAB39B00D9B70E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE59D4BE2AFAB39B00D9B70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE59D4C02AFAB39C00D9B70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE59D4C32AFAB39C00D9B70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE59D4C52AFAB39C00D9B70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE59D4CB2AFAB43600D9B70E /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		EE59D4CD2AFAB47400D9B70E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EE59D4CF2AFAB48100D9B70E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EE59D4D12AFAB92B00D9B70E /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		EE59D4D32AFABEF800D9B70E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		EE59D4D52AFABF8400D9B70E /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,15 @@
 			children = (
 				EE59D4B72AFAB39B00D9B70E /* AppDelegate.swift */,
 				EE59D4B92AFAB39B00D9B70E /* SceneDelegate.swift */,
-				EE59D4BB2AFAB39B00D9B70E /* ViewController.swift */,
 				EE59D4BD2AFAB39B00D9B70E /* Main.storyboard */,
+				EE59D4D32AFABEF800D9B70E /* TabBarViewController.swift */,
+				EE59D4D52AFABF8400D9B70E /* SectionTableViewController.swift */,
+				EE59D4D12AFAB92B00D9B70E /* ContactDetailViewController.swift */,
 				EE59D4C02AFAB39C00D9B70E /* Assets.xcassets */,
 				EE59D4C22AFAB39C00D9B70E /* LaunchScreen.storyboard */,
+				EE59D4CB2AFAB43600D9B70E /* ContactsTableViewController.swift */,
+				EE59D4CD2AFAB47400D9B70E /* Person.swift */,
+				EE59D4CF2AFAB48100D9B70E /* DataManager.swift */,
 				EE59D4C52AFAB39C00D9B70E /* Info.plist */,
 			);
 			path = "ДЗ7";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE59D4BC2AFAB39B00D9B70E /* ViewController.swift in Sources */,
 				EE59D4B82AFAB39B00D9B70E /* AppDelegate.swift in Sources */,
+				EE59D4D02AFAB48100D9B70E /* DataManager.swift in Sources */,
 				EE59D4BA2AFAB39B00D9B70E /* SceneDelegate.swift in Sources */,
+				EE59D4CE2AFAB47400D9B70E /* Person.swift in Sources */,
+				EE59D4D42AFABEF800D9B70E /* TabBarViewController.swift in Sources */,
+				EE59D4D22AFAB92B00D9B70E /* ContactDetailViewController.swift in Sources */,
+				EE59D4D62AFABF8400D9B70E /* SectionTableViewController.swift in Sources */,
+				EE59D4CC2AFAB43600D9B70E /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
